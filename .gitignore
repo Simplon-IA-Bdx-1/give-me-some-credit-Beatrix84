@@ -17,3 +17,5 @@ datasets/spam
 datasets/titanic
 datasets/words
 docker/auth.env
+*.csv
+Class/
