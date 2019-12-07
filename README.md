@@ -1,18 +1,43 @@
-# Modification on dataset
-* credit_modified
-* Modifications_function
+github link: https://github.com/Beatrix84/Credit_p.git
 
-# BigML prediction and Kaggle submission
-* bigml_credit_prediction
+## How to start the project
 
-# AUC
- * AUC_calculation
+### Create a docker folder with:
+* docker.compose.yml
+* Dockerfile
+* requirements 
+* auth.env document:
+    BIGML_API_KEY=()
+    BIGML_USERNAME=()
+    KAGGLE_USERNAME=()
+    KAGGLE_KEY=()
 
- # Learning Curves
- * Learning_curves
+### In Credit_p/docker:
+    docker-compose up --build
 
-# SK-Learn
- * Credit_model_scikit-learn
+## Project
 
-# ML-Python book (chp 5, 6, 7)
-* Exercise_book_ML_python_credit
+### In Credit_p/docker:
+    docker-compose up 
+
+### Modification on datasets
+* credit_modified.ipynb
+
+### BigML prediction and Kaggle submission
+* bigml_credit_prediction.ipynb :
+    Kaggle public score : 0.85753
+
+### Model analysis
+* AUC_calculation.ipynb
+* prediction_error.ipynb
+* Learning_curves.ipynb
+
+### Scikit-learn and XGBoost
+* Credit-Split.ipnyb 
+* Credit_model_scikit-learn.ipynb
+
+### Prediction on a new entry
+* Exo_191107.ipynb
+
+### ML-Python book (chp 5, 6, 7)
+* Exercise_book_ML_python_credit.ipynb
