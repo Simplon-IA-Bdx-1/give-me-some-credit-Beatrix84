@@ -1,6 +1,7 @@
 github link: https://github.com/Beatrix84/Credit_p.git
 
 ## How to start the project
+* Download training and test csv : https://www.kaggle.com/c/GiveMeSomeCredit/data
 
 ### Create a docker folder with:
 * docker.compose.yml
